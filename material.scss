@@ -1,0 +1,22 @@
+$colors: (turwuoise #33CC99) (emerald #33CC66) (peter-river#336699) (amethyst #9966CC) (wet-asphalt #4D4D4D) (green-sea #339966) (nephritis #009933) (belize-hole #336699) (wisteria #663399) (midnight-blue #333333) (sun-flower #FFCC00) (carrot #FF9933) (alizarin #FF6666) (clouds #E6E6E6) (concrete #999999) (orange #FF9933) (pumpkin #CC3300) (pomegranate #990000) (silver #CCCCCC) (asbestos #808080);
+
+//Colors
+@each $name, $hexa in $colors {
+  .c-#{$name} {
+    color: #{$hexa};
+  }
+}
+
+//Backgrounds
+@each $name, $hexa in $colors {
+  .bg-#{$name} {
+    background-color: #{$hexa};
+  }
+}
+
+//Border colors
+@each $name, $hexa in $colors {
+  .bc-#{$name} {
+    border-color: #{$hexa};
+  }
+}
