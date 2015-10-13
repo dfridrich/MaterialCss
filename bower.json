@@ -1,0 +1,17 @@
+{
+  "name": "MaterialCss",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dfridrich/MaterialCss",
+  "authors": [
+    "Dennis Fridrich <fridrich.dennis@gmail.com>"
+  ],
+  "description": "CSS with material design colors.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
