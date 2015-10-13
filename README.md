@@ -4,7 +4,7 @@ Inspired by [flatuicolors.com](http://flatuicolors.com/).
 
 ##Install with Bower
 
-`bower install MaterialCss`
+`bower install dfridrich-material-css`
 
 ##List of colors
 
